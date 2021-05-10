@@ -1,5 +1,46 @@
 .timeline__container {
-    width: 100%;
+    width: 80vw;
+    height: 80vh; 
+    display:block; 
+    margin:auto;
+}
+
+.timeline__holder {
+    height: 100%;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+}
+
+.mid__division {
+    background-color: white;
+    width: 4px;
+    height: 100%;
+}
+
+.data__container {
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 30vw;
+}
+
+.position__info {
+    width: 50%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "quicksand";
+    font-size: 25px;
+    color: black;
+    font-weight: bolder;
+}
+
+.div {
+    width: 50%;
+    background-color: white;
+    height: 3px;
 }

@@ -3,22 +3,44 @@ import { Chrono } from "react-chrono";
 import "./Achievement.scss"
 
 const Achievement = () => {
-  const items = [{
-    title: "May 1940",
-    cardTitle: "Dunkirk",
-    cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-    cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
-    media: {
-      type: "IMAGE",
-      source: {
-        url: "http://someurl/image.jpg"
-      }
+
+  const containerComponent = (side) => {
+    if(side==="yes") {
+      return(
+        <div className='data__container'>
+        <div className="div"></div>
+        <div className="position__info">
+          testing position
+        </div>
+      </div>
+
+
+        );
+    } else {
+      return(
+
+<div className='data__container'>
+<div className="position__info">
+  testing position
+</div>
+<div className="div"></div>
+</div>
+        );
     }
-  }];
+  }
 
   return (
-    <div style={{ width: "500px", height: "400px", backgroundColor:"green" }}>
-      <Chrono items={items} />
+    <div className="timeline__container">
+      <div className="timeline__holder">
+        <div className="timeline__left__component">
+        {containerComponent("no")}
+        </div>
+        <div className="mid__division">
+        </div>
+        <div className="timeline__right__component">
+          {containerComponent("yes")}
+        </div>
+      </div>
     </div>
   )
 }
