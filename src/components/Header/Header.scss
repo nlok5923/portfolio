@@ -1,0 +1,42 @@
+.flex__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Quicksand";
+    height: 10vh;
+    margin-top: 2%;
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        width: 30%;
+    }
+
+    &__links {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 60%;
+    }
+}
+ .element {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;   
+}
+
+.logo {
+    justify-content: center;
+
+    &__text {
+        text-align: center;
+        font-size: 25px;
+        font-weight: bolder;
+        color: #A73A67;
+    }
+}
+
+.nav__format {
+    text-decoration: none;
+}

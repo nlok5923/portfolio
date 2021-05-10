@@ -1,0 +1,19 @@
+.project__page {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+}
+
+.project__nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: monospace;
+    color: white;
+
+    &__element {
+        padding-top: 10px;
+        font-size: 15px;
+    }
+}

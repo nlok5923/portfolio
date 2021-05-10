@@ -1,0 +1,25 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 40%;
+
+    &__button {
+        background: transparent;
+        border: 2px solid white;
+        color: white;
+        font-family: "quicksand";
+        outline: none;
+        font-size: 15px;
+        padding: 7px;
+    }
+}
+
+.inactive {
+    padding: 7px;
+}
+
+.active {
+    padding: 12px;
+}
