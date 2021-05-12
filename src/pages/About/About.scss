@@ -1,0 +1,76 @@
+// .talk__align {
+//     margin-right: 10%;
+//     width: 80%;
+// }
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about__container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;    
+    align-items: center;
+    flex-direction: row;
+    height: 60vh;
+
+    &__img {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        // align-items: center;
+        color: aliceblue;
+        font-family: "montserrat";
+        width: 60%;
+        h1 {
+            font-size: 25px;
+        }
+    }
+}
+
+.coding__handles, .social__handles {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70%;
+    width: 8%;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    color: white;
+  }
+  
+  .fa-instagram {
+    color: white;
+  }
+  
+  .fa-github {
+    color: white;
+  }
+  
+  .fa-linkedin {
+    color: white;
+  }

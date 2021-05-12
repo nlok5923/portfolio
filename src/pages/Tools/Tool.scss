@@ -1,0 +1,46 @@
+.tools__page {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.tool__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.tool__shelf {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    width: 80%;
+    border: 5px solid white;
+
+    &__label {
+        height: 30px;
+        width: 100px;
+        background-color: white;
+        color: black;
+        font-family: "quicksand";
+        font-size: 25px;
+        position: absolute;
+        margin-top: -150px;
+        margin-left: -450px;
+    }
+
+    &__icon {
+        height: 70px;
+        width: 70px;
+    }
+}
+
+.sooth {
+    height: 300px;
+    width: 300px;
+}
