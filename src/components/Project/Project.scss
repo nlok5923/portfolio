@@ -1,15 +1,19 @@
 .project__container {
     display: flex;
     justify-content: center;
-    width: 80%;
+    width: 85%;
     color: white;
     font-family: monospace;
+    margin-top: 4%;
+    border-left: 4px solid white;
+    // box-shadow: 5px 10px 10px #888888;
 }
 
 .project__info {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-left: 5%;
 
     &__name {
         font-size: 35px;
@@ -18,6 +22,7 @@
     &__desc {
         margin-top: 5%;
         font-size: 20px;
+        padding-right: 2%;
     }
 
     &__image {
@@ -26,6 +31,7 @@
 
     &__stack {
         margin-top: 3%;
+        padding-bottom: 3%;
     }
 }
 .project__image {

@@ -3,11 +3,11 @@ import ImageCard from "./Image/Index"
 import StackButton from "./stack/index"
 
 const Project = (props) => {
-    const { name, link, desc, image, stack } = props;
+    const { name, link, desc, image, stack, id } = props;
     
     return(
         <div>
-            <div className="project__container">
+            <div className="project__container" id={id}>
                 <div className="project__info">
                     <div className="project__info__name">
                         <h1>{name}</h1>

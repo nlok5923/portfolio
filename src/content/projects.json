@@ -3,21 +3,21 @@
         {
             "name":"attender",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porttitor ligula eu ultricies convallis. Proin condimentum massa ac nunc pellentesque, ut suscipit orci iaculis. Cras facilisis augue quam, sit amet suscipit lacus iaculis rhoncus. Proin iaculis dignissim lorem ac tempor. Proin est est, ornare mattis fermentum rutrum, pretium ac quam. Aliquam imperdiet pulvinar risus eget lobortis. Sed faucibus tellus nec libero lacinia, vel dignissim elit ornare. Ut ut luctus neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Curabitur volutpat sodales magna vitae mattis. In vel lacus eu ipsum maximus tempus non vel libero. Praesent matti",
-            "image" :"images/about.jpg",
+            "image" :"images/test.png",
             "github__link": "https://github.com/nlo5923",
             "stack": ["express.js", "react.js", "Three.js", "echoar", "html/css3"]
         },
         {
-            "name":"attender",
+            "name":"attende",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porttitor ligula eu ultricies convallis. Proin condimentum massa ac nunc pellentesque, ut suscipit orci iaculis. Cras facilisis augue quam, sit amet suscipit lacus iaculis rhoncus. Proin iaculis dignissim lorem ac tempor. Proin est est, ornare mattis fermentum rutrum, pretium ac quam. Aliquam imperdiet pulvinar risus eget lobortis. Sed faucibus tellus nec libero lacinia, vel dignissim elit ornare. Ut ut luctus neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Curabitur volutpat sodales magna vitae mattis. In vel lacus eu ipsum maximus tempus non vel libero. Praesent mattis.",
-            "image" :"images/about.jpg",
+            "image" :"images/test.png",
             "github__link": "https://github.com/nlo5923",
             "stack": ["express.js", "react.js", "Three.js", "echoar", "html/css3"]
         },
         {
-            "name":"attender",
+            "name":"attend",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porttitor ligula eu ultricies convallis. Proin condimentum massa ac nunc pellentesque, ut suscipit orci iaculis. Cras facilisis augue quam, sit amet suscipit lacus iaculis rhoncus. Proin iaculis dignissim lorem ac tempor. Proin est est, ornare mattis fermentum rutrum, pretium ac quam. Aliquam imperdiet pulvinar risus eget lobortis. Sed faucibus tellus nec libero lacinia, vel dignissim elit ornare. Ut ut luctus neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Curabitur volutpat sodales magna vitae mattis. In vel lacus eu ipsum maximus tempus non vel libero. Praesent mattis ",
-            "image" :"images/about.jpg",
+            "image" :"images/test.png",
             "github__link": "https://github.com/nlo5923",
             "stack": ["express.js", "react.js", "Three.js", "echoar", "html/css3"]
         }

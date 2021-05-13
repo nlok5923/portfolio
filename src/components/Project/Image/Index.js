@@ -10,8 +10,9 @@ const ImageComponent = (props) => {
                 <img src={image} className="image" alt="project" />
             </div>
             <div className="image__container__link">
-                <img src="images/github.png" alt="project" />
-                <img src="images/link.png" alt="project" />
+                <img className="icon" src="images/github.png" alt="project" />
+                <img className="icon" src="images/link.png" alt="project" />
+                <img className="icon" src="images/star.png" alt="project" />
             </div>
         </div>
     );

@@ -4,31 +4,39 @@ import Talk from '../../components/Talk/Index'
 import * as conversation from "../../content/conversation.json"
 import ProjectDescription from "../../components/Project/index"
 import * as projectData from "../../content/projects.json"
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Projects = () => {
-    return (
+
+    // scrollToTop = () => {
+    //     scroll.scrollToTop();
+    //   };
+
+      return (
+        <div className="project">
         <div className="project__page">
             <div className="project__holder">
                 {projectData.project__data.map((data, index)=> {
-                    return (<ProjectDescription name={data.name} image={data.image} link={data.github__link} desc={data.description} stack={data.stack} />);
+                    return (<ProjectDescription name={data.name} image={data.image} link={data.github__link} desc={data.description} stack={data.stack} id={data.name} />);
                 })}
             </div>
-            <div className="project__nav">
-                    <div className="project__nav__element">
-                        <h1>P.1</h1>
-                    </div>
-                    <div className="project__nav__element">
-                        <h1>P.2</h1>
-                    </div>
-                    <div className="project__nav__element">
-                        <h1>P.3</h1>
-                    </div>
-                    <div className="project__nav__element">
-                        <h1>P.4</h1>
-                    </div>
-                    <div className="project__nav__element">
-                        <h1>P.5</h1>
-                    </div>
+        </div>
+        <div className="project__nav">
+            {projectData.project__data.map((data, index) => {
+                return(<div className="project__nav__element">
+                         {/* <h1>P.{index}</h1> */}
+                         <Link
+                         activeClass="active"
+                         to={data.name}
+                         spy={true}
+                         smooth={true}
+                         offset={-70}
+                         duration={500}
+                         >
+                            <h1> P.{index} </h1>
+                        </Link>
+                       </div>)
+            })}
                 </div>
         </div>
     )
