@@ -2,6 +2,8 @@ import React, { Component } from "react"
 import "./Achievement.scss"
 import * as recognition from "../../content/recognition.json"
 import NavButton from "../../components/Navbar/Index"
+import Talk from "../../components/Talk/Index"
+import * as conversation from "../../content/conversation.json"
 
 const Achievement = () => {
 
@@ -47,6 +49,8 @@ const rightComponent = (data) =>  <div className='data__container'>
   }
 
   return (
+    <div>
+      <Talk message = {conversation.converation[0].message} />
     <div className="timeline__container">
       <div className="timeline__holder">
         <div className="timeline__left__component">
@@ -65,6 +69,7 @@ const rightComponent = (data) =>  <div className='data__container'>
       {/* <div>
         <NavButton active={"achieve"} />
       </div> */}
+    </div>
     </div>
   )
 }

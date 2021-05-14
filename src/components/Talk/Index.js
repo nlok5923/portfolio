@@ -24,9 +24,9 @@ const Talk = (props) => {
         <div>
            <div className="speak__container">
                <div className="talk__container">
-           <p className="bubble speech">{message}</p>
-           <img src="images/about.jpg" className="speak__container__img" alt="nitanshu photo" />
-           </div>
+                   <p className="bubble speech">{message}</p>
+                   <img src="images/astro.jpg" className="speak__container__img" alt="nitanshu photo" />
+                </div>
            </div>
         </div>
     )

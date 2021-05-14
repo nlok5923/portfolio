@@ -7,6 +7,8 @@ import Navbutton from "../../components/Navbar/Index"
 const Home = () => {
     return (
         <div>
+             <Talk message={conversation.converation[0].message} />
+
             <div className="container">
                 <div className="info__container">
                     <div className="primary__info">
@@ -31,7 +33,7 @@ const Home = () => {
             </div>
             <div className="nav">
                     <Navbutton active={"home"} />
-                </div>
+            </div>
         </div>
     )
 }

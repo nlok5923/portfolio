@@ -1,7 +1,7 @@
 import { React, useEffect, useState } from "react"
 import "./About.scss"
 // import Flying from "../../components/Flying/index"
-// import Talk from "../../components/Talk/Index"
+import Talk from "../../components/Talk/Index"
 import * as conversation from "../../content/conversation.json";
 
 const About = () => {
@@ -14,6 +14,8 @@ const About = () => {
     // },[]);
 
     return(
+        <div>
+        <Talk message={conversation.converation[0].message} />
         <div className="about">
             <div className="about__container">
                 <div className="coding__handles">
@@ -59,6 +61,7 @@ const About = () => {
                 <Talk message = {conversation.converation[1].message} />
             </div>  */}
             {/* } */}
+        </div>
         </div>
     );
 }

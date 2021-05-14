@@ -10,8 +10,6 @@ import Header from "./components/Header/index"
 const App = () => {
   return(
     <div className="page">
-      {/* <div className="stars"></div>
-      <div className="twinkling"></div> */}
       <Router>
       <Header />
         <Switch>

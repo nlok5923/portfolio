@@ -1,8 +1,11 @@
 import './Tool.scss'
+import Talk from "../../components/Talk/Index"
+import * as conversation from "../../content/conversation.json"
 
 const Tools = () => {
     return (
         <div>
+            <Talk message={conversation.converation[0].message} />
             <div className="tools__page">
                 <div className="tool__container">
                     <div className='tool__shelf'>
@@ -38,7 +41,7 @@ const Tools = () => {
                     </div>
                 </div>
                 <div className="soothing">
-                        <img src="images/about.jpg" alt="yay!!" className="sooth" />
+                        <img src="images/astro.svg" alt="yay!!" className="sooth float-ease" />
                     </div>
             </div>
         </div>

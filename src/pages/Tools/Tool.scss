@@ -1,9 +1,11 @@
 .tools__page {
-    width: 100%;
+    width: 90%;
+    margin: auto;
     height: 80vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
 
 .tool__container {
@@ -20,18 +22,21 @@
     align-items: center;
     height: 15vh;
     width: 80%;
+    margin-left: 8%;
     border: 5px solid white;
 
     &__label {
         height: 30px;
-        width: 100px;
+        width: 150px;
         background-color: white;
         color: black;
         font-family: "quicksand";
         font-size: 25px;
+        font-weight: bolder;
         position: absolute;
         margin-top: -150px;
         margin-left: -450px;
+        text-align: center;
     }
 
     &__icon {
@@ -40,7 +45,32 @@
     }
 }
 
+.soothing {
+    margin-right: 10%;
+}
+
 .sooth {
     height: 300px;
     width: 300px;
 }
+
+.float-ease {
+    animation: float 2s infinite ease;
+}
+
+@keyframes float {
+    0% {
+      transform: translateY(0);
+      -webkit-transform: translateY(0);
+    }
+  
+    50% {
+      transform: translateY(1rem);
+      -webkit-transform: translateY(1rem);
+    }
+  
+    100% {
+      transform: translateY(0);
+      -webkit-transform: translateY(0);
+    }
+  }

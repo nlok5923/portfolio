@@ -13,6 +13,8 @@ const Projects = () => {
     //   };
 
       return (
+          <div>
+        <Talk message={conversation.converation[0].message} />
         <div className="project">
         <div className="project__page">
             <div className="project__holder">
@@ -38,6 +40,7 @@ const Projects = () => {
                        </div>)
             })}
                 </div>
+        </div>
         </div>
     )
 }
