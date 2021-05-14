@@ -1,7 +1,6 @@
-import React, { Component } from "react"
+import React from "react"
 import "./Achievement.scss"
 import * as recognition from "../../content/recognition.json"
-import NavButton from "../../components/Navbar/Index"
 import Talk from "../../components/Talk/Index"
 import * as conversation from "../../content/conversation.json"
 
@@ -66,9 +65,6 @@ const rightComponent = (data) =>  <div className='data__container'>
           })}
         </div>
       </div>
-      {/* <div>
-        <NavButton active={"achieve"} />
-      </div> */}
     </div>
     </div>
   )

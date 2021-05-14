@@ -40,3 +40,8 @@
 .nav__format {
     text-decoration: none;
 }
+
+.nav__format:hover {
+    text-decoration: underline;
+    color: white;
+}

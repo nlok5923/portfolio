@@ -1,4 +1,4 @@
-import { React, useEffect, useRef, useState } from "react"
+import { React, useEffect, useState } from "react"
 import './Talk.scss'
 
 const Talk = (props) => {
@@ -18,14 +18,14 @@ const Talk = (props) => {
             }
         }
         typeWriter();
-    },[]);
+    },[props.message]);
 
     return (
         <div>
            <div className="speak__container">
                <div className="talk__container">
                    <p className="bubble speech">{message}</p>
-                   <img src="images/astro.jpg" className="speak__container__img" alt="nitanshu photo" />
+                   <img src="images/astro.jpg" className="speak__container__img" alt="nitanshu" />
                 </div>
            </div>
         </div>

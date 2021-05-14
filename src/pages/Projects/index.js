@@ -4,13 +4,9 @@ import Talk from '../../components/Talk/Index'
 import * as conversation from "../../content/conversation.json"
 import ProjectDescription from "../../components/Project/index"
 import * as projectData from "../../content/projects.json"
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 const Projects = () => {
-
-    // scrollToTop = () => {
-    //     scroll.scrollToTop();
-    //   };
 
       return (
           <div>
@@ -26,7 +22,6 @@ const Projects = () => {
         <div className="project__nav">
             {projectData.project__data.map((data, index) => {
                 return(<div className="project__nav__element">
-                         {/* <h1>P.{index}</h1> */}
                          <Link
                          activeClass="active"
                          to={data.name}

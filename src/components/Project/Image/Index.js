@@ -2,7 +2,7 @@ import "./Image.scss"
 
 const ImageComponent = (props) => {
 
-    const {link, image} = props;
+    const {image} = props;
 
     return (
         <div className="image__container">

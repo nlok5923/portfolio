@@ -7,7 +7,9 @@ const Header = () => {
         <div className="header">
             <div className="flex__container">
                 <div className="flex__container__logo">
-                <img src="images/logo.png" alt="logo" />
+                    <NavLink exact activeClassName="current" to="/">
+                        <img src="images/logo.png" alt="logo" />
+                    </NavLink>
                 </div>
                 <div className="flex__container__links">
                 <NavLink exact activeClassName="current" to='/Project'  className="nav__format" ><div className="element">Projects</div></NavLink>

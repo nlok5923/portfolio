@@ -1,8 +1,7 @@
-import { React, useEffect, useRef, useState } from "react"
+import { React } from "react"
 import Talk from '../../components/Talk/Index'
 import * as conversation from "../../content/conversation.json"
 import "./Home.scss"
-import Navbutton from "../../components/Navbar/Index"
 
 const Home = () => {
     return (
@@ -23,16 +22,13 @@ const Home = () => {
                     <div className="social">
                         <hr />
                         <div className="social__links">
-                            <img src="images/fb.png" className="facebook" />
-                            <img src="images/twitter.png" className="twitter" />
-                            <img src="images/insta.png" className="instagram" />
-                            <img src="images/linkedin.png" className="Linkedin" />
+                            <img src="images/fb.png" className="facebook" alt="social" />
+                            <img src="images/twitter.png" className="twitter" alt="social" />
+                            <img src="images/insta.png" className="instagram" alt="social" />
+                            <img src="images/linkedin.png" className="Linkedin" alt="social" />
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="nav">
-                    <Navbutton active={"home"} />
             </div>
         </div>
     )

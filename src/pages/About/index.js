@@ -1,17 +1,9 @@
-import { React, useEffect, useState } from "react"
+import { React } from "react"
 import "./About.scss"
-// import Flying from "../../components/Flying/index"
 import Talk from "../../components/Talk/Index"
 import * as conversation from "../../content/conversation.json";
 
 const About = () => {
-
-    // const [load, setLoad] = useState(false);
-    // useEffect(()=>{
-    //     setInterval(()=>{
-    //         setLoad(true);
-    //     },10)
-    // },[]);
 
     return(
         <div>
@@ -32,7 +24,7 @@ const About = () => {
                 >
                 </a>
                 </div>
-                <img className="about__container__img" src="images/nitanshu.jpg" />
+                <img className="about__container__img" src="images/nitanshu.jpg" alt="me" />
                 <div className="about__container__info" >
                     <h1>Hi 👋 this is Nitanshu Lokhande</h1>
                     <div className="info__para">

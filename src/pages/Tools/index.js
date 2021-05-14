@@ -12,36 +12,36 @@ const Tools = () => {
                         <div className="tool__shelf__label">
                             Stack
                         </div>
-                        <img src="tech-icons/react.svg" className="tool__shelf__icon" />
-                        <img src="tech-icons/react.svg" className="tool__shelf__icon" />
-                        <img src="tech-icons/react.svg" className="tool__shelf__icon" />
-                        <img src="tech-icons/react.svg" className="tool__shelf__icon" />
-                        <img src="tech-icons/react.svg" className="tool__shelf__icon" />
-                        <img src="tech-icons/react.svg" className="tool__shelf__icon" />
+                        <img src="tech-icons/react.svg" className="tool__shelf__icon" alt="tech" />
+                        <img src="tech-icons/react.svg" className="tool__shelf__icon" alt="tech" />
+                        <img src="tech-icons/react.svg" className="tool__shelf__icon" alt="tech" />
+                        <img src="tech-icons/react.svg" className="tool__shelf__icon" alt="tech" />
+                        <img src="tech-icons/react.svg" className="tool__shelf__icon" alt="tech" />
+                        <img src="tech-icons/react.svg" className="tool__shelf__icon" alt="tech" />
                      </div>
                     <div className='tool__shelf'>
                     <div className="tool__shelf__label">
                             Tools
                         </div>
-                        <img src="tech-icons/visual-studio-code.svg" className="tool__shelf__icon" />
-                        <img src="tech-icons/visual-studio-code.svg" className="tool__shelf__icon" />
-                        <img src="tech-icons/visual-studio-code.svg" className="tool__shelf__icon" />
-                        <img src="tech-icons/visual-studio-code.svg" className="tool__shelf__icon" />
-                        <img src="tech-icons/visual-studio-code.svg" className="tool__shelf__icon" />
+                        <img src="tech-icons/visual-studio-code.svg" className="tool__shelf__icon" alt="tech" />
+                        <img src="tech-icons/visual-studio-code.svg" className="tool__shelf__icon" alt="tech" />
+                        <img src="tech-icons/visual-studio-code.svg" className="tool__shelf__icon" alt="tech" />
+                        <img src="tech-icons/visual-studio-code.svg" className="tool__shelf__icon" alt="tech" />
+                        <img src="tech-icons/visual-studio-code.svg" className="tool__shelf__icon" alt="tech" />
                     </div>
                     <div className='tool__shelf'>
                     <div className="tool__shelf__label">
                             Workflow
                         </div>
-                        <img src="tech-icons/hyper.svg" className="tool__shelf__icon" />
-                        <img src="tech-icons/hyper.svg" className="tool__shelf__icon" />
-                        <img src="tech-icons/hyper.svg" className="tool__shelf__icon" />
-                        <img src="tech-icons/hyper.svg" className="tool__shelf__icon" />
-                        <img src="tech-icons/hyper.svg" className="tool__shelf__icon" />
+                        <img src="tech-icons/hyper.svg" className="tool__shelf__icon" alt="tech" />
+                        <img src="tech-icons/hyper.svg" className="tool__shelf__icon" alt="tech" />
+                        <img src="tech-icons/hyper.svg" className="tool__shelf__icon" alt="tech" />
+                        <img src="tech-icons/hyper.svg" className="tool__shelf__icon" alt="tech" />
+                        <img src="tech-icons/hyper.svg" className="tool__shelf__icon" alt="tech" />
                     </div>
                 </div>
                 <div className="soothing">
-                        <img src="images/astro.svg" alt="yay!!" className="sooth float-ease" />
+                        <img src="images/astro.svg" className="sooth float-ease" alt="tech" />
                     </div>
             </div>
         </div>
