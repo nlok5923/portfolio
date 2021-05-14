@@ -51,6 +51,7 @@ const rightComponent = (data) =>  <div className='data__container'>
     <div>
       <Talk message = {conversation.converation[0].message} />
     <div className="timeline__container">
+      <h1 className="achiever"> Nitanshu Lokhande</h1>
       <div className="timeline__holder">
         <div className="timeline__left__component">
           {recognition.recognitions.map((data, index) => {
