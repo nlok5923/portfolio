@@ -3,7 +3,7 @@ import ImageCard from "./Image/Index"
 import StackButton from "./stack/index"
 
 const Project = (props) => {
-    const { name, link, desc, image, stack, id } = props;
+    const { name, link, bullets, image, stack, id } = props;
     
     return(
         <div>
@@ -13,7 +13,9 @@ const Project = (props) => {
                         <h1>{name}</h1>
                     </div>
                     <div className="project__info__desc">
-                        <p>{desc}</p>
+                        {
+                            bullets.map((data, index) => <li>{data.bullet}</li>)
+                        }
                     </div>
                     <div className="project__info__image">
                         <ImageCard link={link} image={image} />

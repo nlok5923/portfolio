@@ -2,7 +2,6 @@ import { React, useEffect, useState } from "react"
 import './Talk.scss'
 
 const Talk = (props) => {
-    // const [ishover, setIshover] = useState(false);
     const [message, setMessage] = useState("");
     useEffect(() => {
         var i = 0;

@@ -15,7 +15,7 @@ const Projects = () => {
         <div className="project__page">
             <div className="project__holder">
                 {projectData.project__data.map((data, index)=> {
-                    return (<ProjectDescription name={data.name} image={data.image} link={data.github__link} desc={data.description} stack={data.stack} id={data.name} />);
+                    return (<ProjectDescription name={data.name} image={data.image} link={data.github__link} desc={data.description} bullets={data.bullets} stack={data.stack} id={data.name} />);
                 })}
             </div>
         </div>
