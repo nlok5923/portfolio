@@ -14,7 +14,7 @@ const Project = (props) => {
                     </div>
                     <div className="project__info__desc">
                         {
-                            bullets.map((data, index) => <li>{data.bullet}</li>)
+                            bullets.map((data, index) => <li key={index} >{data.bullet}</li>)
                         }
                     </div>
                     <div className="project__info__image">
@@ -22,7 +22,7 @@ const Project = (props) => {
                     </div>
                     <div className="project__info__stack">
                         {stack.map((data, index)=> {
-                           return(<StackButton tech={data} />)
+                           return(<StackButton tech={data} key={index} />)
                         })}
                     </div>
                 </div>

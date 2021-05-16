@@ -6,7 +6,7 @@ import "./Home.scss"
 const Home = () => {
     return (
         <div>
-             <Talk message={conversation.converation[0].message} />
+             <Talk message={conversation.converation[0].home} />
 
             <div className="container">
                 <div className="info__container">

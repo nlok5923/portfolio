@@ -49,7 +49,7 @@ const rightComponent = (data) =>  <div className='data__container'>
 
   return (
     <div>
-      <Talk message = {conversation.converation[0].message} />
+      <Talk message = {conversation.converation[0].recog} />
     <div className="timeline__container">
       <h1 className="achiever"> Nitanshu Lokhande</h1>
       <div className="timeline__holder">

@@ -5,7 +5,7 @@ import * as conversation from "../../content/conversation.json"
 const Tools = () => {
     return (
         <div>
-            <Talk message={conversation.converation[0].message} />
+            <Talk message={conversation.converation[0].tools} />
             <div className="tools__page">
                 <div className="tool__container">
                     <div className='tool__shelf'>

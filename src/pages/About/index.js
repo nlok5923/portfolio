@@ -8,21 +8,16 @@ const About = () => {
 
     const socialHandles = ["fa fa-facebook", "fa fa-instagram", "fa fa-linkedin"];
     const codingHandles = ["codechef", "codeforces", "github"];
-    var i = -1;
-    var j = -1;
 
     return(
         <div>
-        <Talk message={conversation.converation[0].message} />
+        <Talk message={conversation.converation[0].about} />
         <div className="about">
             <div className="about__container">
                 <div className="coding__handles">
                     {aboutme.about[2].coding__links.map((data, index) => {
-                        j++;
-                        let name = "images/" + codingHandles[j] + '.svg';
-                        return(
-                            <a href={data}><img src={name} className="handle__size" alt='coding handle' /></a>
-                            )
+                        let name = "images/" + codingHandles[index] + '.svg';
+                        return(<a href={data} key={index}> <img src={name} className="handle__size" alt='coding handle' /></a>)
                     })}
                 </div>
                 <img className="about__container__img" src="images/nitanshu.jpg" alt="me" />
@@ -34,16 +29,10 @@ const About = () => {
                 </div>
                 <div className="social__handles">
                 {aboutme.about[1].social__links.map((data, index) =>{ 
-                 i++;
-                 return (<a href={data} className={socialHandles[i]} >&emsp;</a>)
+                 return (<a href={data} key={index} className={socialHandles[index]} >&emsp;</a>)
                  })}
                 </div>
             </div>
-            {/* {!load ? <Flying />: */}
-            {/* <div className="talk__align">
-                <Talk message = {conversation.converation[1].message} />
-            </div>  */}
-            {/* } */}
         </div>
         </div>
     );
