@@ -61,7 +61,7 @@
                     "bullet": "Students can ask doubt in every lecture through Doubt button included in every lecture, His doubt will the mailed to faculty responsible for creating that particular lecture on which doubt raised along with that lecture."
                 }
             ],
-            "image" :"images/test.png",
+            "image" :"images/sahhaayak.png",
             "github__link": "https://github.com/Sahaayak",
             "star__link": "https://github.com/Sahaayak",
             "stack": ["express.js", "node.js", "Three.js", "echoar", "html/css3", "ejs", "mongodb", "mongoose"]
@@ -91,7 +91,7 @@
                     "bullet": "Contact us feature, Website will provide a list and info of the NGO to interested users ,Users can apply to any NGO."
                 }
             ],
-            "image" :"images/test.png",
+            "image" :"images/ngo.png",
             "github__link": "https://github.com/Ohh-404-BrainNotFound/NGO-Database-Management-System",
             "star__link": "https://github.com/Ohh-404-BrainNotFound/NGO-Database-Management-System",
             "stack": ["express.js", "node.js", "mongodb", "ejs", "html/css3"]
@@ -121,7 +121,7 @@
                     "bullet": "Retrieving all receipts at one or date wise ,Analyze expenses all at once or between certain dates."
                 }
             ],
-            "image" :"images/test.png",
+            "image" :"images/nhdd.png",
             "github__link": "https://github.com/Ohh-404-BrainNotFound/NGO-Database-Management-System",
             "star__link": "https://github.com/Ohh-404-BrainNotFound/NGO-Database-Management-System",
             "stack": ["HTML5", "CSS3", "Javascript", "Php"]
@@ -148,7 +148,7 @@
                     "bullet": "Login and sign up facility for user"
                 }
             ],
-            "image" :"images/test.png",
+            "image" :"images/e-doctor.png",
             "github__link": "https://github.com/nlok5923/e-doctor",
             "star__link": "https://github.com/nlok5923/e-doctor",
             "stack": ["express.js", "node.js", "mongodb", "ejs", "html/css3"]
