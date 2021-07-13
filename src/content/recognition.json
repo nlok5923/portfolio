@@ -1,5 +1,5 @@
 {
-    "recognitions":[
+    "recognitions": [
         {
             "name": "2nd Runner Up",
             "Desc": "Recognised as second runner-up in HackData5.0 hackathon organised by Shiv Nadar University",
@@ -7,7 +7,7 @@
             "align": "left"
         },
         {
-            "name": "echoAr challenge winner",            
+            "name": "echoAr challenge winner",
             "Desc": "Top 10 finalist+ echoAr challenge winner in Hackathon HackEd Organized by christ college of engineering.",
             "date": "01/2021",
             "align": "right"
@@ -19,7 +19,7 @@
             "align": "left"
         },
         {
-            "name": "Winner",            
+            "name": "Winner",
             "Desc": "Recognised as second runner-up in HackData5.0 hackathon organised by Shiv Nadar University",
             "date": "10/2020",
             "align": "right"
@@ -29,6 +29,12 @@
             "Desc": "We developed a plant model to utilise solar heat energy for generating electricity.",
             "date": "10/2016",
             "align": "left"
+        },
+        {
+            "name": "Bertelsmann scholarship winner",
+            "Desc": "it is a test description.",
+            "date": "10/2016",
+            "align": "right"
         }
     ]
 }

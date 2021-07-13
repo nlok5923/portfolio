@@ -1,7 +1,3 @@
-// .talk__align {
-//     margin-right: 10%;
-//     width: 80%;
-// }
 
 .about {
     display: flex;
@@ -28,14 +24,18 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        // align-items: center;
         color: aliceblue;
         font-family: "montserrat";
-        width: 60%;
         h1 {
             font-size: 25px;
+            padding-left: 20px;
         }
     }
+}
+
+.info__para {
+  padding-top: 1%;
+  padding-left: 20px;
 }
 
 .coding__handles, .social__handles {
@@ -44,6 +44,7 @@
     justify-content: space-around;
     height: 70%;
     width: 8%;
+    margin: 1.5%;
 }
 
 .fa {

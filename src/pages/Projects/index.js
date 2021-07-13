@@ -10,7 +10,7 @@ const Projects = () => {
 
       return (
           <div>
-        <Talk message={conversation.converation[0].project} />
+        <Talk message={conversation.converation[0].project} xOffset="73%" yOffset="25%" />
         <div className="project">
         <div className="project__page">
             <div className="project__holder">

@@ -22,7 +22,7 @@ const Talk = (props) => {
 
     return (
         <div>
-           <div className="speak__container" >
+           <div className="speak__container" style={{ marginLeft: props.xOffset , marginTop: props.yOffset }} >
            {/* <img src="images/cross.svg" className={`speak__container__img ${ishover ? "show" :"no-show"}`} alt="nitanshu"  className="cross" /> */}
                <div className="talk__container">
                    <p className="bubble speech">{message}</p>

@@ -17,7 +17,9 @@ const Home = () => {
                     </div>
                     <div className="secondary__info">
                     <hr />
-                        <p className="secondary__info__text">So guys here you have a look on top 4 projects which my master worked upon over on it to get more info about them :)</p>
+                        <p className="secondary__info__text">
+                            I am Nitanshu lokhande a person with scientific entrepreneurial mindset which beliefs in innovation and life long learning :) 
+                        </p>
                     </div>
                     <div className="social">
                         <hr />

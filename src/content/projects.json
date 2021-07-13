@@ -1,10 +1,10 @@
 {
     "project__data": [
         {
-            "name":"Attender",
+            "name": "Attender",
             "bullets": [
                 {
-                    "bullet": "The aim of this platform is to track whether a student is actually attending classes or just joined." 
+                    "bullet": "The aim of this platform is to track whether a student is actually attending classes or just joined."
                 },
                 {
                     "bullet": "In this platform, the instructor can create a lecture and after creating the lecture we will provide a unique id to the instructor which he needs to circulate among his students."
@@ -25,13 +25,22 @@
                     "bullet": "And all this attendance information will be available for the instructor responsible for that particular lecture after the lecture ends."
                 }
             ],
-            "image" :"images/test.png",
+            "image": "images/test.png",
             "github__link": "https://github.com/nlo5923/Attenders",
             "star__link": "https://github.com/nlok5923/Attenders",
-            "stack": ["express.js", "node.js", "face-api.js", "ejs", "html/css3", "firebase", "mongodb", "mongoose"]
+            "stack": [
+                "express.js",
+                "node.js",
+                "face-api.js",
+                "ejs",
+                "html/css3",
+                "firebase",
+                "mongodb",
+                "mongoose"
+            ]
         },
         {
-            "name":"Sahaayak",
+            "name": "Sahaayak",
             "bullets": [
                 {
                     "bullet": "Sahaayak is an online platform which is enabled with certain features and valuable propects to improvise the traditional as well as virtual learning mode of education."
@@ -61,74 +70,89 @@
                     "bullet": "Students can ask doubt in every lecture through Doubt button included in every lecture, His doubt will the mailed to faculty responsible for creating that particular lecture on which doubt raised along with that lecture."
                 }
             ],
-            "image" :"images/sahhaayak.png",
+            "image": "images/sahhaayak.png",
             "github__link": "https://github.com/Sahaayak",
             "star__link": "https://github.com/Sahaayak",
-            "stack": ["express.js", "node.js", "Three.js", "echoar", "html/css3", "ejs", "mongodb", "mongoose"]
+            "stack": [
+                "express.js",
+                "node.js",
+                "Three.js",
+                "echoar",
+                "html/css3",
+                "ejs",
+                "mongodb",
+                "mongoose"
+            ]
         },
         {
-            "name":"NGO database Management",
+            "name": "OffQuiz",
             "bullets": [
                 {
-                    "bullet": "A modular platform build with modern web development tech stacks to make the working of NGO's smooth it has certain features like Login and registration for user and ngo."
+                    "bullet": "Teacher can use the web portal to form batches of students."
                 },
                 {
-                    "bullet": "Users can donate to any NGO of his preference"
+                    "bullet": "Quiz can be created on the web portal by the teacher."
                 },
                 {
-                    "bullet": "Website maintains user donation information"
+                    "bullet": "All the created quizzes can be viewed on the dashboard."
                 },
                 {
-                    "bullet": "User profile update feature ,NGO profile update feature "
+                    "bullet": "Once the quiz is created the teacher can circulate the quiz within an already created batch of students."
                 },
                 {
-                    "bullet": "Website maintains data regarding donations to each NGO"
+                    "bullet": "At the students end, all you require is a smartphone with incoming sms facility."
                 },
                 {
-                    "bullet": "NGO can manage his members ,NGO will get a list of top donors"
+                    "bullet": "Students receive a encrypted message on their phone which the OffQuiz App decrypts and display the Quiz on screen."
                 },
                 {
-                    "bullet": "Contact us feature, Website will provide a list and info of the NGO to interested users ,Users can apply to any NGO."
+                    "bullet": "INTERNET CONNECTION IS NOT REQUIRED AT THE STUDENTS' END TO ATTEMPT THE QUIZ."
+                },
+                {
+                    "bullet": "The Quiz Responses are encrypted and sent to our servers through sms."
+                },
+                {
+                    "bullet": "Teacher can view the responses of all the student on our web application."
                 }
             ],
-            "image" :"images/ngo.png",
-            "github__link": "https://github.com/Ohh-404-BrainNotFound/NGO-Database-Management-System",
-            "star__link": "https://github.com/Ohh-404-BrainNotFound/NGO-Database-Management-System",
-            "stack": ["express.js", "node.js", "mongodb", "ejs", "html/css3"]
+            "image": "images/landing.png",
+            "github__link": "https://github.com/ultra-noobs/OffQuiz",
+            "star__link": "https://github.com/ultra-noobs/OffQuiz",
+            "stack": [
+                "express.js",
+                "node.js",
+                "firebase",
+                "flutter",
+                "React.js",
+                "Sass"
+            ]
         },
         {
-            "name":"NHDD",
+            "name": "Musical IDE",
             "bullets": [
                 {
-                    "bullet": "Project NHDD.com is nothing but a portal accompanied with all the facilities discussed in the problem statement. "
+                    "bullet": "This is the unique online IDE (intergrated development enviroment) integrated with music players."
                 },
                 {
-                    "bullet": "NHDD.com is a portal made with booming web technologies like HTML5, CSS3 , Vanilla Javascript, PHP and My Sql as its database for storing records."
+                    "bullet": "It offers support for compilation and run time execution of several languages such as C++, python, Java, C code."
                 },
                 {
-                    "bullet": "Through NHDD.com user can save records, update records, retrieve records, find full inference out of the records,"
-                },
-                {
-                    "bullet": "get the deviation and overall expense + savings figure, save receipt, retrieve receipts and can maintain his her privacy by proper login credentials."
-                },
-                {
-                    "bullet": "  NHDD.com accompanied with certain features as: Saving and updating records ,Downloading report ,Retrieving records ,Getting deviation figure at the end of each month"
-                },
-                {
-                    "bullet": "Getting a proper credit score defining the saving + expense history ,Compare current month records with that of previous month records ,User can save some important receipts ,"
-                },
-                {
-                    "bullet": "Retrieving all receipts at one or date wise ,Analyze expenses all at once or between certain dates."
+                    "bullet": "This IDE is integrated with a music player which enables your to hear your favourite songs at the moment you were coding."
                 }
             ],
-            "image" :"images/nhdd.png",
-            "github__link": "https://github.com/Ohh-404-BrainNotFound/NGO-Database-Management-System",
-            "star__link": "https://github.com/Ohh-404-BrainNotFound/NGO-Database-Management-System",
-            "stack": ["HTML5", "CSS3", "Javascript", "Php"]
+            "image": "images/ide.png",
+            "github__link": "https://github.com/nlok5923/musical-ide",
+            "star__link": "https://github.com/nlok5923/musical-ide",
+            "stack": [
+                "Reactjs",
+                "Sass",
+                "Judge0 api",
+                "Monaco"
+            ]
         },
         {
-            "name":"e-doctor",
-            "bullets":[
+            "name": "e-doctor",
+            "bullets": [
                 {
                     "bullet": "This is the website made for the purpose of preserving our own medicinal culture and help each other for the treatment of small diseases."
                 },
@@ -148,10 +172,16 @@
                     "bullet": "Login and sign up facility for user"
                 }
             ],
-            "image" :"images/e-doctor.png",
+            "image": "images/e-doctor.png",
             "github__link": "https://github.com/nlok5923/e-doctor",
             "star__link": "https://github.com/nlok5923/e-doctor",
-            "stack": ["express.js", "node.js", "mongodb", "ejs", "html/css3"]
+            "stack": [
+                "express.js",
+                "node.js",
+                "mongodb",
+                "ejs",
+                "html/css3"
+            ]
         }
     ]
 }

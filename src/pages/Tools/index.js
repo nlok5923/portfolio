@@ -21,7 +21,7 @@ const Tools = () => {
 
     return (
         <div>
-            <Talk message={conversation.converation[0].tools} />
+            <Talk message={conversation.converation[0].tools} xOffset="60%" yOffset="10%"  />
             <div className="tools__page">
                 <div className="tool__container">
                 <div className='tool__shelf'>
@@ -66,7 +66,7 @@ const Tools = () => {
                     </div>
                 </div>
                 <div className="soothing">
-                        <img src="images/astro.svg" className="sooth float-ease" alt="tech" />
+                        {/* <img src="images/astro.svg" className="sooth float-ease" alt="tech" /> */}
                     </div>
             </div>
         </div>
