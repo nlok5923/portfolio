@@ -10,12 +10,12 @@ const Projects = () => {
 
       return (
           <div>
-        <Talk message={conversation.converation[0].message} />
+        <Talk message={conversation.converation[0].project} />
         <div className="project">
         <div className="project__page">
             <div className="project__holder">
                 {projectData.project__data.map((data, index)=> {
-                    return (<ProjectDescription name={data.name} image={data.image} link={data.github__link} desc={data.description} stack={data.stack} id={data.name} />);
+                    return (<ProjectDescription key={index} name={data.name} image={data.image} link={data.github__link} desc={data.description} bullets={data.bullets} stack={data.stack} id={data.name} />);
                 })}
             </div>
         </div>

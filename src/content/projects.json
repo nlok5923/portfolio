@@ -2,7 +2,29 @@
     "project__data": [
         {
             "name":"Attender",
-            "description": "Project Attender: The aim of this platform is to track whether a student is actually attending classes or just joined. In this platform, the instructor can create a lecture and after creating the lecture we will provide a unique id to the instructor which he needs to circulate among his students. As a student, you need to register yourself on this platform and upload your image for detection purposes. After registering you need to log in yourself after login you can enter the id which is provided by the course instructor of the current lecture and then click on the start button and now you are all done. Now students attend classes as they normally attend but they need to open our web in another tab so that we can track them. And all this attendance information will be available for the instructor responsible for that particular lecture after the lecture ends.",
+            "bullets": [
+                {
+                    "bullet": "The aim of this platform is to track whether a student is actually attending classes or just joined." 
+                },
+                {
+                    "bullet": "In this platform, the instructor can create a lecture and after creating the lecture we will provide a unique id to the instructor which he needs to circulate among his students."
+                },
+                {
+                    "bullet": "As a student, you need to register yourself on this platform and upload your image for detection purposes. "
+                },
+                {
+                    "bullet": " After registering you need to log in yourself after login you can enter the id which is provided by the course instructor of the current lecture"
+                },
+                {
+                    "bullet": "then click on the start button and now you are all done. "
+                },
+                {
+                    "bullet": "Now students attend classes as they normally attend but they need to open our web in another tab so that we can track them. "
+                },
+                {
+                    "bullet": "And all this attendance information will be available for the instructor responsible for that particular lecture after the lecture ends."
+                }
+            ],
             "image" :"images/test.png",
             "github__link": "https://github.com/nlo5923/Attenders",
             "star__link": "https://github.com/nlok5923/Attenders",
@@ -10,32 +32,123 @@
         },
         {
             "name":"Sahaayak",
-            "description": "Sahaayak is an online platform which is enabled with certain features and valuable propects to improvise the traditional as well as virtual learning mode of education. This platform performs certain tasks, Some of them are listed below: An Institute can setup an admin to take overall power to maintain a web system. An Instructor can register himself via admin assist and will be mailed with proper credentials once registered.Instructor can add lectures included with videos ,3D models, images or any element or resource which can be used for Rich text formatting can be used by instructor. An whole page is dedicated for creation and management of lecture by Instructor. Students can access all lectures at once, separated subject wise in order to provide convenience and decrease time wastage in finding lectures or resources sent by Instructor. An whole page is dedicated to each lecture made by instructor. 3D platform integrated with every lecture to understand concepts via 3d models. Students can ask doubt in every lecture through Doubt button included in every lecture, His doubt will the mailed to faculty responsible for creating that particular lecture on which doubt raised along with that lecture.",
-            "image" :"images/test.png",
+            "bullets": [
+                {
+                    "bullet": "Sahaayak is an online platform which is enabled with certain features and valuable propects to improvise the traditional as well as virtual learning mode of education."
+                },
+                {
+                    "bullet": "This platform performs certain tasks, Some of them are listed below: An Institute can setup an admin to take overall power to maintain a web system."
+                },
+                {
+                    "bullet": "An Instructor can register himself via admin assist and will be mailed with proper credentials once registered."
+                },
+                {
+                    "bullet": "Instructor can add lectures included with videos ,3D models, images or any element or resource which can be used for Rich text formatting can be used by instructor."
+                },
+                {
+                    "bullet": "An whole page is dedicated for creation and management of lecture by Instructor. "
+                },
+                {
+                    "bullet": "Students can access all lectures at once, separated subject wise in order to provide convenience and decrease time wastage in finding lectures or resources sent by Instructor."
+                },
+                {
+                    "bullet": " An whole page is dedicated to each lecture made by instructor."
+                },
+                {
+                    "bullet": "3D platform integrated with every lecture to understand concepts via 3d models. "
+                },
+                {
+                    "bullet": "Students can ask doubt in every lecture through Doubt button included in every lecture, His doubt will the mailed to faculty responsible for creating that particular lecture on which doubt raised along with that lecture."
+                }
+            ],
+            "image" :"images/sahhaayak.png",
             "github__link": "https://github.com/Sahaayak",
             "star__link": "https://github.com/Sahaayak",
             "stack": ["express.js", "node.js", "Three.js", "echoar", "html/css3", "ejs", "mongodb", "mongoose"]
         },
         {
             "name":"NGO database Management",
-            "description": "A modular platform build with modern web development tech stacks to make the working of NGO's smooth it has certain features like Login and registration for user and ngo. ,Users can donate to any NGO of his preference ,Website maintains user donation information ,User profile update feature ,NGO profile update feature ,Website maintains data regarding donations to each NGO ,NGO can manage his members ,NGO will get a list of top donors, Contact us feature, Website will provide a list and info of the NGO to interested users ,Users can apply to any NGO.",
-            "image" :"images/test.png",
+            "bullets": [
+                {
+                    "bullet": "A modular platform build with modern web development tech stacks to make the working of NGO's smooth it has certain features like Login and registration for user and ngo."
+                },
+                {
+                    "bullet": "Users can donate to any NGO of his preference"
+                },
+                {
+                    "bullet": "Website maintains user donation information"
+                },
+                {
+                    "bullet": "User profile update feature ,NGO profile update feature "
+                },
+                {
+                    "bullet": "Website maintains data regarding donations to each NGO"
+                },
+                {
+                    "bullet": "NGO can manage his members ,NGO will get a list of top donors"
+                },
+                {
+                    "bullet": "Contact us feature, Website will provide a list and info of the NGO to interested users ,Users can apply to any NGO."
+                }
+            ],
+            "image" :"images/ngo.png",
             "github__link": "https://github.com/Ohh-404-BrainNotFound/NGO-Database-Management-System",
             "star__link": "https://github.com/Ohh-404-BrainNotFound/NGO-Database-Management-System",
             "stack": ["express.js", "node.js", "mongodb", "ejs", "html/css3"]
         },
         {
             "name":"NHDD",
-            "description": "Project NHDD.com is nothing but a portal accompanied with all the facilities discussed in the problem statement. NHDD.com is a portal made with booming web technologies like HTML5, CSS3 , Vanilla Javascript, PHP and My Sql as its database for storing records. Through NHDD.com user can save records, update records, retrieve records, find meaning full inference out of the records, get the deviation and overall expense + savings figure, save receipt, retrieve receipts and can maintain his her privacy by proper login credentials. NHDD.com accompanied with certain features as: Saving and updating records ,Downloading report ,Retrieving records ,Getting deviation figure at the end of each month ,Getting a proper credit score defining the saving + expense history ,Compare current month records with that of previous month records ,User can save some important receipts ,Retrieving all receipts at one or date wise ,Analyze expenses all at once or between certain dates.",
-            "image" :"images/test.png",
+            "bullets": [
+                {
+                    "bullet": "Project NHDD.com is nothing but a portal accompanied with all the facilities discussed in the problem statement. "
+                },
+                {
+                    "bullet": "NHDD.com is a portal made with booming web technologies like HTML5, CSS3 , Vanilla Javascript, PHP and My Sql as its database for storing records."
+                },
+                {
+                    "bullet": "Through NHDD.com user can save records, update records, retrieve records, find full inference out of the records,"
+                },
+                {
+                    "bullet": "get the deviation and overall expense + savings figure, save receipt, retrieve receipts and can maintain his her privacy by proper login credentials."
+                },
+                {
+                    "bullet": "  NHDD.com accompanied with certain features as: Saving and updating records ,Downloading report ,Retrieving records ,Getting deviation figure at the end of each month"
+                },
+                {
+                    "bullet": "Getting a proper credit score defining the saving + expense history ,Compare current month records with that of previous month records ,User can save some important receipts ,"
+                },
+                {
+                    "bullet": "Retrieving all receipts at one or date wise ,Analyze expenses all at once or between certain dates."
+                }
+            ],
+            "image" :"images/nhdd.png",
             "github__link": "https://github.com/Ohh-404-BrainNotFound/NGO-Database-Management-System",
             "star__link": "https://github.com/Ohh-404-BrainNotFound/NGO-Database-Management-System",
             "stack": ["HTML5", "CSS3", "Javascript", "Php"]
         },
         {
             "name":"e-doctor",
-            "description": "This is the website made for the purpose of preserving our own medicinal culture and help each other for the treatment of small diseases. User will get information regarding disease he may have from symptoms, Old home medicine culture is feature in the way article on it formed, Every article can be liked or disliked so that user can get the most trusted articles, Ingredients details(needed for making medicine) can be added with article, Login and sign up facility for user",
-            "image" :"images/test.png",
+            "bullets":[
+                {
+                    "bullet": "This is the website made for the purpose of preserving our own medicinal culture and help each other for the treatment of small diseases."
+                },
+                {
+                    "bullet": "User will get information regarding disease he may have from symptoms, "
+                },
+                {
+                    "bullet": "Old home medicine culture is feature in the way article on it formed, "
+                },
+                {
+                    "bullet": "Every article can be liked or disliked so that user can get the most trusted articles,"
+                },
+                {
+                    "bullet": "Ingredients details(needed for making medicine) can be added with article. "
+                },
+                {
+                    "bullet": "Login and sign up facility for user"
+                }
+            ],
+            "image" :"images/e-doctor.png",
             "github__link": "https://github.com/nlok5923/e-doctor",
             "star__link": "https://github.com/nlok5923/e-doctor",
             "stack": ["express.js", "node.js", "mongodb", "ejs", "html/css3"]

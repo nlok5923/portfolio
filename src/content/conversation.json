@@ -1,13 +1,11 @@
 {
     "converation": [
         {
-            "message": "So hello venturer it's nice to have you here welcome to Nitanshu's portfolio let's take journey together"
-        },
-        {
-            "message": "So this planet is devoted to grab information about me something you might be interested in ;)"
-        },
-        {
-            "message": "So guys here you have a look on top 4 projects which my master worked upon over on it to get more info about them :)"
+            "home": "So hello venturer it's nice to have you here welcome to my portfolio let's take journey together :)",
+            "recog": "So here you will see my acheievements they aren't much good but still i adore them ;)",
+            "project": "Here i had listed my top 5 projects which i had made during my college semester enjoy exploring them for more project head over to https://github.com/nlok5923",
+            "tools": "This are the tools i mentioned in a classified way which i used during development of projects ",
+            "about": "This page does nothing greats it just showcase some info about me you can read if you're interested ^_^"
         }
     ]
 }

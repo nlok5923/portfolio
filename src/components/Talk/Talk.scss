@@ -5,8 +5,9 @@ p.bubble {
 	text-align: center;
 	line-height: 1.4em;
 	margin: 40px auto;
-	background-color:rgb(41, 39, 39);
-	border: 8px solid rgb(99, 11, 99);
+	background-color: black;
+	// border: 8px solid rgb(99, 11, 99);
+	border: 8px solid white;
 	font-family: "montserrat";
     color: white;
 	padding: 20px;
@@ -27,14 +28,17 @@ p.speech:before {
 	left: 30px;
 	bottom: -50px;
 	border: 25px solid;
-	border-color: rgb(99, 11, 99) transparent transparent rgb(99, 11, 99);
+	// border-color: rgb(99, 11, 99) transparent transparent rgb(99, 11, 99);
+	border-color: white transparent transparent white;
+
 }
 
 p.speech:after {
 	left: 38px;
 	bottom: -30px;
 	border: 15px solid;
-	border-color: rgb(99, 11, 99) transparent transparent rgb(99, 11, 99);
+	// border-color: rgb(99, 11, 99) transparent transparent rgb(99, 11, 99);
+	border-color: white transparent transparent white;
 }
 
 .speak__container {
@@ -60,4 +64,18 @@ p.speech:after {
     flex-direction: row-reverse;
     // margin-right: 23%;
 	width: 50%;
+}
+
+.cross {
+	position: absolute;
+	margin-top: 33%;
+	margin-left: 12%;
+}
+
+.show {
+	display: block;
+}
+
+.no__show {
+	display: none;
 }

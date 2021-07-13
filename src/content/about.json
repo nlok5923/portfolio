@@ -1,0 +1,22 @@
+{
+    "about": [
+        {
+            "heading":"Hi 👋 this is Nitanshu Lokhande",
+            "para":"Hey Guys, This is Nitanshu Lokhande (2nd year) Student at IIIT Vadodara enrolled in Btech CSE program. I am an open source ethusiast and a tech hunter currently exploring/working in the field of Blockchain developing smart contracts for ethereum . I am a tech geek always keen to learn new Technologies to get in pace with world demands. If you would like to connect with me feel free to ping me on below given handles."
+        },
+        {
+            "social__links": [
+                "https://www.facebook.com/nitanshu.lokhande.9/",
+                "https://www.instagram.com/nitanshu_lokhande",
+                "https://www.linkedin.com/in/nitanshu-lokhande-5b60691a0/"
+            ]
+        },
+        {
+            "coding__links": [
+                "https://www.codechef.com/users/creator6113",
+                "https://codeforces.com/profile/Creator6113",
+                "https://github.com/nlok5923"
+            ]
+        }
+    ]
+}
