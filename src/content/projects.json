@@ -1,42 +1,46 @@
 {
     "project__data": [
         {
-            "name": "Attender",
+            "name": "OffQuiz",
             "bullets": [
                 {
-                    "bullet": "The aim of this platform is to track whether a student is actually attending classes or just joined."
+                    "bullet": "Teacher can use the web portal to form batches of students."
                 },
                 {
-                    "bullet": "In this platform, the instructor can create a lecture and after creating the lecture we will provide a unique id to the instructor which he needs to circulate among his students."
+                    "bullet": "Quiz can be created on the web portal by the teacher."
                 },
                 {
-                    "bullet": "As a student, you need to register yourself on this platform and upload your image for detection purposes. "
+                    "bullet": "All the created quizzes can be viewed on the dashboard."
                 },
                 {
-                    "bullet": " After registering you need to log in yourself after login you can enter the id which is provided by the course instructor of the current lecture"
+                    "bullet": "Once the quiz is created the teacher can circulate the quiz within an already created batch of students."
                 },
                 {
-                    "bullet": "then click on the start button and now you are all done. "
+                    "bullet": "At the students end, all you require is a smartphone with incoming sms facility."
                 },
                 {
-                    "bullet": "Now students attend classes as they normally attend but they need to open our web in another tab so that we can track them. "
+                    "bullet": "Students receive a encrypted message on their phone which the OffQuiz App decrypts and display the Quiz on screen."
                 },
                 {
-                    "bullet": "And all this attendance information will be available for the instructor responsible for that particular lecture after the lecture ends."
+                    "bullet": "INTERNET CONNECTION IS NOT REQUIRED AT THE STUDENTS' END TO ATTEMPT THE QUIZ."
+                },
+                {
+                    "bullet": "The Quiz Responses are encrypted and sent to our servers through sms."
+                },
+                {
+                    "bullet": "Teacher can view the responses of all the student on our web application."
                 }
             ],
-            "image": "images/test.png",
-            "github__link": "https://github.com/nlo5923/Attenders",
-            "star__link": "https://github.com/nlok5923/Attenders",
+            "image": "images/landing.png",
+            "github__link": "https://github.com/ultra-noobs/OffQuiz",
+            "star__link": "https://github.com/ultra-noobs/OffQuiz",
             "stack": [
                 "express.js",
                 "node.js",
-                "face-api.js",
-                "ejs",
-                "html/css3",
                 "firebase",
-                "mongodb",
-                "mongoose"
+                "flutter",
+                "React.js",
+                "Sass"
             ]
         },
         {
@@ -85,46 +89,42 @@
             ]
         },
         {
-            "name": "OffQuiz",
+            "name": "Attender",
             "bullets": [
                 {
-                    "bullet": "Teacher can use the web portal to form batches of students."
+                    "bullet": "The aim of this platform is to track whether a student is actually attending classes or just joined."
                 },
                 {
-                    "bullet": "Quiz can be created on the web portal by the teacher."
+                    "bullet": "In this platform, the instructor can create a lecture and after creating the lecture we will provide a unique id to the instructor which he needs to circulate among his students."
                 },
                 {
-                    "bullet": "All the created quizzes can be viewed on the dashboard."
+                    "bullet": "As a student, you need to register yourself on this platform and upload your image for detection purposes. "
                 },
                 {
-                    "bullet": "Once the quiz is created the teacher can circulate the quiz within an already created batch of students."
+                    "bullet": " After registering you need to log in yourself after login you can enter the id which is provided by the course instructor of the current lecture"
                 },
                 {
-                    "bullet": "At the students end, all you require is a smartphone with incoming sms facility."
+                    "bullet": "then click on the start button and now you are all done. "
                 },
                 {
-                    "bullet": "Students receive a encrypted message on their phone which the OffQuiz App decrypts and display the Quiz on screen."
+                    "bullet": "Now students attend classes as they normally attend but they need to open our web in another tab so that we can track them. "
                 },
                 {
-                    "bullet": "INTERNET CONNECTION IS NOT REQUIRED AT THE STUDENTS' END TO ATTEMPT THE QUIZ."
-                },
-                {
-                    "bullet": "The Quiz Responses are encrypted and sent to our servers through sms."
-                },
-                {
-                    "bullet": "Teacher can view the responses of all the student on our web application."
+                    "bullet": "And all this attendance information will be available for the instructor responsible for that particular lecture after the lecture ends."
                 }
             ],
-            "image": "images/landing.png",
-            "github__link": "https://github.com/ultra-noobs/OffQuiz",
-            "star__link": "https://github.com/ultra-noobs/OffQuiz",
+            "image": "images/test.png",
+            "github__link": "https://github.com/nlo5923/Attenders",
+            "star__link": "https://github.com/nlok5923/Attenders",
             "stack": [
                 "express.js",
                 "node.js",
+                "face-api.js",
+                "ejs",
+                "html/css3",
                 "firebase",
-                "flutter",
-                "React.js",
-                "Sass"
+                "mongodb",
+                "mongoose"
             ]
         },
         {

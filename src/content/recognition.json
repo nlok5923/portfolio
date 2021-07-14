@@ -14,7 +14,7 @@
         },
         {
             "name": "finalist winner",
-            "Desc": "inalist prize winner of codeheat period 2 2020-2021 contest organized by fossasia organization which provides a chance to young coders to contribute in industry level projects",
+            "Desc": "Finalist prize winner of codeheat period 2 2020-2021 contest organized by fossasia organization which provides a chance to young coders to contribute in industry level projects",
             "date": "01/2021",
             "align": "left"
         },
@@ -32,8 +32,8 @@
         },
         {
             "name": "Bertelsmann scholarship winner",
-            "Desc": "it is a test description.",
-            "date": "10/2016",
+            "Desc": "Chosen to be the scholarship winner for data science track at udacity",
+            "date": "10/2020",
             "align": "right"
         }
     ]

@@ -1,35 +1,35 @@
 .project {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 80%;
+  margin: auto;
+
+  &__page {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    width: 80%;
+    width: 90%;
     margin: auto;
-
-    &__page {
-        display: flex;
-        flex-direction: row;
-        width: 90%;
-        margin: auto;
-    }
+  }
 }
 
 .project__nav {
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-family: monospace;
-    color: white;
-    margin-top: 10%;
-    margin-left: 75%;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: monospace;
+  color: white;
+  margin-top: 10%;
+  margin-left: 75%;
 
-    &__element {
-        padding-top: 10px;
-        font-size: 15px;
-    }
+  &__element {
+    padding-top: 10px;
+    font-size: 15px;
+  }
 
-    &__element:hover {
-        text-decoration: underline;
-        cursor: pointer;
-    }
+  &__element:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
 }

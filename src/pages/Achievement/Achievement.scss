@@ -1,83 +1,83 @@
 .timeline__container {
-    width: 80vw;
-    height: 1000px; 
-    display:block; 
-    margin:auto;
+  width: 80vw;
+  height: 1000px;
+  display: block;
+  margin: auto;
 }
 
 .timeline__holder {
-    height: 1000px;
-    width: 80vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;   
+  height: 1000px;
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .mid__division {
-    background-color: white;
-    width: 4px;
-    height: 100%;
+  background-color: white;
+  width: 4px;
+  height: 100%;
 }
 
 .data__container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 30vw;
-    margin-top: 13%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30vw;
+  margin-top: 13%;
 }
 
 .data__holder {
-    width: 100%;
+  width: 100%;
 }
 
 .position__info {
-    width: 90%;
-    height: 150px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    &__data {
+  &__data {
+    padding: 30px;
     font-family: "quicksand";
     font-size: 15px;
     color: black;
     font-weight: bolder;
     width: 80%;
-    }
+  }
 }
 
-.heading, .desc {
-    background-color: white;
+.heading,
+.desc {
+  background-color: white;
 }
 
 .date {
-    color: white;
-    font-family: "quicksand";
-    font-size: 20px;
+  color: white;
+  font-family: "quicksand";
+  font-size: 20px;
 }
 
 .div {
-    width: 50%;
-    background-color: white;
-    height: 3px;
+  width: 50%;
+  background-color: white;
+  height: 3px;
 }
 
 .timeline__right__component {
-    margin-top: 5%;
+  margin-top: 5%;
 }
 
-
 .align__talk {
-    margin-top: -500px;
+  margin-top: -500px;
 }
 
 .achiever {
-    color: white;
-    text-align: center;
-    font-family: "quicksand";
-    font-size: 40px;
-    text-decoration: underline;
+  color: white;
+  text-align: center;
+  font-family: "quicksand";
+  font-size: 40px;
+  text-decoration: underline;
 }
