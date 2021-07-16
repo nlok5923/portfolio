@@ -2,38 +2,92 @@
     "recognitions": [
         {
             "name": "2nd Runner Up",
-            "Desc": "Recognised as second runner-up in HackData5.0 hackathon organised by Shiv Nadar University",
-            "date": "01/2021",
+            "Desc": [
+                {
+                    "point": "My team stood at second runnner up position"
+                },
+                {
+                    "point": "Hackathon got over the participation of 64 selected teams"
+                },
+                {
+                    "point": "Organized by shiv nadar university"
+                }
+            ],
+            "date": "January | 2021",
             "align": "left"
         },
         {
             "name": "echoAr challenge winner",
-            "Desc": "Top 10 finalist+ echoAr challenge winner in Hackathon HackEd Organized by christ college of engineering.",
-            "date": "01/2021",
+            "Desc": [
+                {
+                    "point": "Grab echoAr challenge winner tag in hackathon"
+                },
+                {
+                    "point": "Also selected as a finalist among top 10 teams"
+                },
+                {
+                    "point": "Hackathon organized by christ college of enginneering which got participation of over 94 selected teams"
+                }
+            ],
+            "date": "January | 2021",
             "align": "right"
         },
         {
-            "name": "finalist winner",
-            "Desc": "Finalist prize winner of codeheat period 2 2020-2021 contest organized by fossasia organization which provides a chance to young coders to contribute in industry level projects",
-            "date": "01/2021",
+            "name": "Finalist winner @Codeheat",
+            "Desc": [
+                {
+                    "point": "Bagged the finalist winner position"
+                },
+                {
+                    "point": "Codeheat 2020-2021 contest organized by fossasia open source org"
+                },
+                {
+                    "point": "Codeheat got participation of 750+ students last year"
+                },
+                {
+                    "point": "Codeheat: contest to contribute in industry level projects"
+                }
+            ],
+            "date": "March | 2021",
             "align": "left"
         },
         {
-            "name": "Winner",
-            "Desc": "Recognised as second runner-up in HackData5.0 hackathon organised by Shiv Nadar University",
-            "date": "10/2020",
+            "name": "Issue Hunter",
+            "Desc": [
+                {
+                    "point": "Recognized as Issue hunter in contributathon."
+                },
+                {
+                    "point": "month long contest organized by IIITV open source org"
+                }
+            ],
+            "date": "October | 2020",
             "align": "right"
         },
         {
             "name": "State level Recognition",
-            "Desc": "We developed a plant model to utilise solar heat energy for generating electricity.",
-            "date": "10/2016",
+            "Desc": [
+                {
+                    "point": "Devised a way to convert solar enery into thermal energy"
+                },
+                {
+                    "point": "Interschool event by NCSC(National children science congress)"
+                }
+            ],
+            "date": "October | 2016",
             "align": "left"
         },
         {
-            "name": "Bertelsmann scholarship winner",
-            "Desc": "Chosen to be the scholarship winner for data science track at udacity",
-            "date": "10/2020",
+            "name": "Bertelsmann scholarship receiver",
+            "Desc": [
+                {
+                    "point": "Datascience tracks scholarship winner at udacity"
+                },
+                {
+                    "point": "Scholarship sponsored by bertelsmann coop"
+                }
+            ],
+            "date": "December | 2020",
             "align": "right"
         }
     ]

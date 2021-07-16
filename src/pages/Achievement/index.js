@@ -9,9 +9,17 @@ const Achievement = () => {
     <div className="data__container">
       <div className="position__info">
         <div className="position__info__data">
-          <h1 className="heading"> {data.name}</h1>
-          <p className="desc">{data.date}</p>
-          <p className="desc">{data.Desc}</p>
+          <h1 className="heading">
+            <strong> {data.name} </strong>
+          </h1>
+          <p className="desc">
+            <i> {data.date} </i>
+          </p>
+          <ul>
+            {data.Desc.map((bullet) => (
+              <li>{bullet.point}</li>
+            ))}
+          </ul>
         </div>
       </div>
       <div className="div"></div>
@@ -23,9 +31,17 @@ const Achievement = () => {
       <div className="div"></div>
       <div className="position__info">
         <div className="position__info__data">
-          <h1 className="heading">{data.name}</h1>
-          <p className="desc">{data.date}</p>
-          <p className="desc">{data.Desc}</p>
+          <h1 className="heading">
+            <strong> {data.name} </strong>
+          </h1>
+          <p className="desc">
+            <i> {data.date} </i>
+          </p>
+          <ul>
+            {data.Desc.map((bullet) => (
+              <li>{bullet.point}</li>
+            ))}
+          </ul>
         </div>
       </div>
     </div>

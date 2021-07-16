@@ -38,6 +38,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
 
   &__data {
     padding: 30px;
@@ -52,6 +53,7 @@
 .heading,
 .desc {
   background-color: white;
+  margin: 10px 0 10px 0;
 }
 
 .date {

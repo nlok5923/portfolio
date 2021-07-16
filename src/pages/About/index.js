@@ -48,6 +48,15 @@ const About = () => {
             })}
           </div>
         </div>
+        <a
+          href="https://drive.google.com/file/d/158UVeg_dn4u5IdR_45CFjaHe3d5wyoKH/view?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button className="resume__button">
+            <strong> Resume 📥 </strong>
+          </button>
+        </a>
       </div>
     </div>
   );
