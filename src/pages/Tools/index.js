@@ -13,7 +13,7 @@ const Tools = () => {
   const Framework = ["react", "expressjs", "nodejs", "jquery", "bootstrap"];
   const Tools = ["vscode", "hyper", "git", "remix", "github"];
   const Workflow = ["travis", "netlify", "eslint", "prettier"];
-  const Databases = ["mongodb", "mysql"];
+  const Databases = ["mongodb", "mysql", "cockroachdb"];
 
   return (
     <div>
