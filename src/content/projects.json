@@ -34,6 +34,7 @@
             "image": "images/landing.png",
             "github__link": "https://github.com/ultra-noobs/OffQuiz",
             "star__link": "https://github.com/ultra-noobs/OffQuiz",
+            "link": "https://offquiz-app.netlify.app/",
             "stack": [
                 "express.js",
                 "node.js",
@@ -77,6 +78,7 @@
             "image": "images/sahhaayak.png",
             "github__link": "https://github.com/Sahaayak",
             "star__link": "https://github.com/Sahaayak",
+            "link": "https://sahaaayak.herokuapp.com/",
             "stack": [
                 "express.js",
                 "node.js",
@@ -116,6 +118,7 @@
             "image": "images/test.png",
             "github__link": "https://github.com/nlo5923/Attenders",
             "star__link": "https://github.com/nlok5923/Attenders",
+            "link": "http://attender01.herokuapp.com/",
             "stack": [
                 "express.js",
                 "node.js",
@@ -143,6 +146,7 @@
             "image": "images/ide.png",
             "github__link": "https://github.com/nlok5923/musical-ide",
             "star__link": "https://github.com/nlok5923/musical-ide",
+            "link": "https://musical-ide.netlify.app/",
             "stack": [
                 "Reactjs",
                 "Sass",
@@ -175,6 +179,7 @@
             "image": "images/e-doctor.png",
             "github__link": "https://github.com/nlok5923/e-doctor",
             "star__link": "https://github.com/nlok5923/e-doctor",
+            "link": "test",
             "stack": [
                 "express.js",
                 "node.js",

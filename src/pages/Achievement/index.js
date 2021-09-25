@@ -65,7 +65,7 @@ const Achievement = () => {
     <div>
       <Talk message={conversation.converation[0].recog} />
       <div className="timeline__container">
-        <h1 className="achiever"> Nitanshu Lokhande</h1>
+        <h1 className="achiever">🏆</h1>
         <div className="timeline__holder">
           <div className="timeline__left__component">
             {recognition.recognitions.map((data, index) => {
@@ -79,6 +79,7 @@ const Achievement = () => {
             })}
           </div>
         </div>
+        <h1 className="init">🌱</h1>
       </div>
     </div>
   );

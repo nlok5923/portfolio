@@ -3,7 +3,8 @@ import ImageCard from "./Image/Index";
 import StackButton from "./stack/index";
 
 const Project = (props) => {
-  const { name, link, bullets, image, stack, id } = props;
+  console.log(props)
+  const { name, link, bullets, image, stack, id, github__link, star__link } = props;
 
   return (
     <div>
@@ -18,7 +19,7 @@ const Project = (props) => {
             ))}
           </div>
           <div className="project__info__image">
-            <ImageCard link={link} image={image} />
+            <ImageCard link={link} image={image} github__link={github__link} star__link={star__link} />
           </div>
           <div className="project__info__stack">
             {stack.map((data, index) => {

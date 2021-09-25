@@ -27,6 +27,8 @@ const Projects = () => {
                   desc={data.description}
                   bullets={data.bullets}
                   stack={data.stack}
+                  github__link={data.github__link}
+                  star__link={data.star__link}
                   id={data.name}
                 />
               );

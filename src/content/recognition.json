@@ -1,10 +1,42 @@
 {
     "recognitions": [
         {
+            "name": "First Prize Winner",
+            "Desc": [
+                {
+                    "point": "Our team stood bagged prize in web domain"
+                },
+                {
+                    "point": "Developed a finished food ordering app in 50hrs"
+                },
+                {
+                    "point": "at DevelopUntill50 organized by IIITV"
+                }
+            ],
+            "date": "july | 2021",
+            "align": "left"
+        },
+        {
             "name": "2nd Runner Up",
             "Desc": [
                 {
-                    "point": "My team stood at second runnner up position"
+                    "point": "Our team stood at 3rd among 480+ teams"
+                },
+                {
+                    "point": "Hackathon got participation from 480+teams and 134 regions"
+                },
+                {
+                    "point": "Organized by IEEE SPS VIT"
+                }
+            ],
+            "date": "May | 2021",
+            "align": "right"
+        },
+        {
+            "name": "2nd Runner Up",
+            "Desc": [
+                {
+                    "point": "Our team stood at second runnner up position"
                 },
                 {
                     "point": "Hackathon got over the participation of 64 selected teams"
