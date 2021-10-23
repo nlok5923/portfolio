@@ -19,7 +19,7 @@ const Home = () => {
           <div className="secondary__info">
             <hr />
             <p className="secondary__info__text">
-              I am Nitanshu lokhande a person with scientific entrepreneurial
+              Hi,👋 This is Nitanshu Lokhande a person with entrepreneurial
               mindset which beliefs in innovation and life long learning :)
             </p>
           </div>

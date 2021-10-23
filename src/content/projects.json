@@ -45,6 +45,39 @@
             ]
         },
         {
+            "name": "Ideaster",
+            "bullets": [
+                {
+                    "bullet": "A decentralized platform made with React js and boostrapped with Semantic-ui-react"
+                },
+                {
+                    "bullet": "User can deploy his ideas to provoke his ownership over the posted ideas"
+                },
+                {
+                    "bullet": "Serves the purpose of testing and reviewing ideas in a anonymous way."
+                },
+                {
+                    "bullet": "User with necessary interest can provide his reviews over idea."
+                },
+                {
+                    "bullet": "Contructive reviews reviewers get rewarded in eth tokens."
+                },
+                {
+                    "bullet": "Smart contract deployed over rinkeby test network and used firebase as supportive DB."
+                }
+            ],
+            "image": "images/ideaster.png",
+            "github__link": "https://github.com/nlok5923/Ideaster-BC",
+            "star__link": "https://github.com/nlok5923/Ideaster-BC",
+            "link": "test",
+            "stack": [
+                "React js",
+                "Solidity",
+                "Scss",
+                "firebase"
+            ]
+        },
+        {
             "name": "Sahaayak",
             "bullets": [
                 {
@@ -152,40 +185,6 @@
                 "Sass",
                 "Judge0 api",
                 "Monaco"
-            ]
-        },
-        {
-            "name": "e-doctor",
-            "bullets": [
-                {
-                    "bullet": "This is the website made for the purpose of preserving our own medicinal culture and help each other for the treatment of small diseases."
-                },
-                {
-                    "bullet": "User will get information regarding disease he may have from symptoms, "
-                },
-                {
-                    "bullet": "Old home medicine culture is feature in the way article on it formed, "
-                },
-                {
-                    "bullet": "Every article can be liked or disliked so that user can get the most trusted articles,"
-                },
-                {
-                    "bullet": "Ingredients details(needed for making medicine) can be added with article. "
-                },
-                {
-                    "bullet": "Login and sign up facility for user"
-                }
-            ],
-            "image": "images/e-doctor.png",
-            "github__link": "https://github.com/nlok5923/e-doctor",
-            "star__link": "https://github.com/nlok5923/e-doctor",
-            "link": "test",
-            "stack": [
-                "express.js",
-                "node.js",
-                "mongodb",
-                "ejs",
-                "html/css3"
             ]
         }
     ]
