@@ -1,22 +1,6 @@
 {
     "recognitions": [
         {
-            "name": "2nd Runnerup",
-            "Desc": [
-                {
-                    "point": "Our team stood 3rd in Hackathon By NITH"
-                },
-                {
-                    "point": "It was 72 hrs hackathon to built hacks based on provided PS"
-                },
-                {
-                    "point": "It was a part of TechNexus technical Fest by NITH"
-                }
-            ],
-            "date": "january | 2022",
-            "align": "right"
-        },
-        {
             "name": "First Prize Winner",
             "Desc": [
                 {
@@ -30,6 +14,22 @@
                 }
             ],
             "date": "july | 2021",
+            "align": "right"
+        },
+        {
+            "name": "2nd Runnerup",
+            "Desc": [
+                {
+                    "point": "Our team stood 3rd in Hackathon By NITH"
+                },
+                {
+                    "point": "It was 72 hrs hackathon to built hacks based on provided PS"
+                },
+                {
+                    "point": "It was a part of TechNexus technical Fest by NITH"
+                }
+            ],
+            "date": "january | 2022",
             "align": "left"
         },
         {
