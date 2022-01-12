@@ -1,10 +1,26 @@
 {
     "recognitions": [
         {
+            "name": "2nd Runnerup",
+            "Desc": [
+                {
+                    "point": "Our team stood 3rd in Hackathon By NITH"
+                },
+                {
+                    "point": "It was 72 hrs hackathon to built hacks based on provided PS"
+                },
+                {
+                    "point": "It was a part of TechNexus technical Fest by NITH"
+                }
+            ],
+            "date": "january | 2022",
+            "align": "right"
+        },
+        {
             "name": "First Prize Winner",
             "Desc": [
                 {
-                    "point": "Our team stood bagged prize in web domain"
+                    "point": "Our team bagged prize in web domain"
                 },
                 {
                     "point": "Developed a finished food ordering app in 50hrs"
